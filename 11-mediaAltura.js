@@ -21,7 +21,7 @@ function descobreMedia(alturas) {
     let soma = 0;
 
     //Percorre todo o vetor, somando os elementos
-    alturas.forEach(item => {
+    alturas.forEach((item) => {
         soma += item;
     })
 
